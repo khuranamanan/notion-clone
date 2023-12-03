@@ -81,6 +81,7 @@ function Navigation() {
     } else {
       onResetWidth();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isMobile]);
 
   useEffect(() => {
