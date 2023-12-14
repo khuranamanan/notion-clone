@@ -29,7 +29,7 @@ import TrashBox from "./TrashBox";
 import { useSearch } from "@/hooks/useSearch";
 import { useSettings } from "@/hooks/useSettings";
 import Navbar from "./Navbar";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 function Navigation() {
   const router = useRouter();
